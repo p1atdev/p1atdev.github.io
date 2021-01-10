@@ -1,13 +1,11 @@
 {
-  "class": "FeaturedBannersView",
-  "itemSize": "{296, 148}",
-  "itemCornerRadius": 10,
-  "banners": [
-    {
-        "url": "https://raw.githubusercontent.com/syns/repo.me/master/assets/Banners/RepoHeader.png",
-        "title": "Sample Package",
-        "package": "me.syns.samplepackage",
+    "class": "FeaturedBannersView",
+    "itemSize": "{296, 148}",
+    "itemCornerRadius": 10,
+    "banners": [{
+        "url": "https://p1atdev.github.io/repo/depictions/freeza/screenshots/FullHD.png",
+        "title": "Freeza",
+        "package": "com.p1atdev.freeza",
         "hideShadow": false
-    }
-  ]
+    }]
 }
