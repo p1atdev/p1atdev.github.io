@@ -1,6 +1,6 @@
 <changelog>
 	<changes>
-		<version>0.0.2</version>
-		<change>Fix showing alert when freeze and resume.</change>
+		<version>1.0.0</version>
+		<change>Set an cool icon!</change>
 	</changes>
 </changelog>

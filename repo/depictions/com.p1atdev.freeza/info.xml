@@ -1,11 +1,11 @@
 <package>
 	<id>com.p1atdev.freeza</id>
 	<name>Freeza</name>
-	<version>0.0.2</version>
+	<version>1.0.0/version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>
-			<maxiOS>14.0</maxiOS>
+			<!-- <maxiOS>14.0</maxiOS> -->
 			<otherVersions>unsupported</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
@@ -18,6 +18,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
+		<change>Set an icon</change>
 		<change>Fix some bugs</change>
 		<change>Initial release</change>
 	</changelog>
