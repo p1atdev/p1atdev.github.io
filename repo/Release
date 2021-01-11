@@ -1,10 +1,10 @@
 Architectures: iphoneos-arm
-Codename: CODENAME_HERE
+Codename: Platinum
 Components: main
 Date: Sun, 10 Jan 2021 18:32:43 +0000
-Description: DESCRIPTION_HERE
+Description: P1at's Repo!
 Label: Platinum
-Origin: origin
+Origin: Platinum
 Suite: stable
 Version: 1.0
 MD5Sum:
