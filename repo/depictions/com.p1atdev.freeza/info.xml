@@ -1,7 +1,7 @@
 <package>
 	<id>com.p1atdev.freeza</id>
 	<name>Freeza</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>
@@ -18,6 +18,7 @@
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
+		<change>Add an icon for Repo</change>
 		<change>Fix some bugs</change>
 		<change>Set an icon</change>
 		<change>Fix some bugs</change>
