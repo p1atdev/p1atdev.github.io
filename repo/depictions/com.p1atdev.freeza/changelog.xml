@@ -1,6 +1,7 @@
 <changelog>
 	<changes>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
+		<change>Fix some bugs</change>
 		<change>Set an cool icon!</change>
 		<change>Fix some bugs</change>
 		<change>Initial release</change>
