@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<!-- い、いや!中、見ないで...//// -->
+<!-- この変態!///// -->
+
+<html lang="ja">
+
+<head>
+    <title>Platina's Area</title>
+    <meta charset="utf-8">
+
+    <!-- jQueryの実行 -->
+    <script>
+        page.cmd('fileGet', ["./template/header.html"], (data) => {
+            document.getElementById("header").innerHTML = data
+        });
+    </script>
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- BootStrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $("#header").load("/template/header.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- ヘッダー -->
+    <div id="header"></div>
+
+    <div class="main p-4">
+        <!-- コンテナ -->
+        <h3 id="-">拝啓</h3>
+        <p>　早春の候、ますますご清祥のこととお喜び申し上げます。</p>
+        <p>　この頃、AISS2021オンラインコースにて大変お世話になっております。とても貴重な教材を無料で提供してくださりありがとうございます。</p>
+        <p>　さて、このオンラインコースについていくつか疑問点と意見がございます。</p>
+        <ul>
+            <li>
+                <h3 id="-">シミュレーターの使用について疑問点</h3>
+            </li>
+            <li>
+                <h3 id="zoom-">ZOOMの利用についての疑問点</h3>
+            </li>
+            <li>
+                <h3 id="-">連絡方法についての提案</h3>
+            </li>
+        </ul>
+        <p>　まずは、<strong>シミュレーターの使用についての疑問点</strong>です。</p>
+        <p>　私は、学校のホームページにて掲載されていた「<a href="https://www.kaijo.ed.jp/wp-content/uploads/2020/11/d3d5c633898807f32f6f22ace80309e0.pdf"><strong>グローバル通信</strong></a>」で今回のプログラムを知り、参加させていただきました。その紙面では今回のオンラインコースについて、このように説明されていました。</p>
+        <blockquote>
+            <p>【募集要項】<br> ◆対象:申込時中学3年生~高校2年生(英語でプログラミングを学ぶ意思のある生徒) <br>◆内容:小型自動運転車の制作・制御プログラミング</p>
+            <p> I オンラインコース(受講無料):基本的なプログラミングについて学び、最終的にパソコン上の仮想空間で車を走らせます。 II サマーコース(2021年3月下旬申し込み受付):実際にマシンを組立て、プログラムを実装して自動運転を実現します。参加条件は、オンラインコースの修了です。ゴールはチーム対抗レ ースで、上位者はアメリカの高校生と合同のファイナルコースに参加できます。</p>
+            <p>I. オンラインコース<br> ◆費用:無料(※PC 必須(Core i7 以上推奨))<br> ◆カリキュラム:
+            </p>
+            <ol>
+                <li>Racecar Course: バーチャル空間でシミュレーションを行います。また、シミュレーションを行うにあたり、制御や Python の基本的なコードを学びます。</li>
+                <li>Python Course: Python で関数を使用して数値処理を行います。サマーコースで使用する Python について、Racecar Course よりも詳しく学びます。任意で受講可能です。 </li>
+            </ol>
+            <p>◆身につくスキル・知識:</p>
+            <ol>
+                <li>基本的なプログラミング知識 </li>
+                <li>英語スキル:英語版yahoo知恵袋のPiazzaを使用</li>
+                <li>ロボット制御知識</li>
+                <li>Python の数値処理スキル</li>
+            </ol>
+        </blockquote>
+        <p>「<em>バーチャル空間でシミュレーションを行います</em>」とあります。しかし、今回のオンラインコースのPiazzaにはこうありました。</p>
+        <blockquote>
+            <p> Alex Hahn</p>
+            <p>Can&#39;t find download information for RACECAR Simulator In the Introduction to RACECAR section the course mentions a RACECAR simulator. I can&#39;t find any information for downloading this simulator in the course.</p>
+            <p>Eyassu Shimelis</p>
+            <p>Hi Alex,</p>
+            <p>Thanks for your question. </p>
+            <p>We won&#39;t be using the simulator in the online course (BWSI104). To keep it short, we decided to focus the course on a small subset of robotics fundamentals (controls, OpenCV, motion planning). We mentioned the simulator to give students
+                an idea of what to expect for the summer class.</p>
+            <p>Hope I answered your question. Sorry for the confusion, I&#39;ll make sure to clarify on the course page.</p>
+            <p>-- Eyassu</p>
+        </blockquote>
+        <p>　なんと、今回のオンラインコースではシミュレーターは使えず、サマーコースでしか使えないとのことです。私は、このシミュレーターで実際に動かすことを楽しみに参加したのですが、事前に説明された内容と違っていてとても悲しいです。</p>
+        <p>　AISS2021が始まる前にシミュレーターが使えないという情報は伝わっていなかったのでしょうか？シミュレーターを使わずにPythonで車を走らせることができるようになることはできないと思います。これは</p>
+        <p>　また、プログラミングに限りませんが、何かを学ぶ時は実際に手や体を動かさないと身につかないと思います。Pythonについては任意受講で、ただYouTubeを眺めるだけでプログラミングができるようになるわけがありません。仕組みがわかったところで実際に自分で動かせないと本当にできるようになったとは言えません。 　その点でもPythonコースをスキップさせるというのは本当にプログラミングを学ばせる気があるのかと疑ってしまいます。コース紹介の文章からプログラミングという言葉を取り除いた方が良いのではないでしょうか。
+        </p>
+        <p>　今回のこのコースは無料でしたが、もしこのコースが有料だったらどうなるでしょうか？そうです、<strong>景品表示法第5条、優良誤認</strong>に明らかに該当します。Alexさんもシミュレーターを使えると思っていたように、このコースは利用者に『実際のものよりも著しく優良である』と誤認させていると言えます。</p>
+        <p>次に、<strong>ZOOMの使用に関する疑問点です</strong></p>
+        <p>このオンラインコースではZOOMを使用してやりとりをしていますが、本当にZOOMを使用する必要はあるのでしょうか? これに関していくつか意見があります。</p>
+        <p>　まずは、<strong>顔を出して会話をする必要性</strong>についてです</p>
+        <p>　大学のように、誰か講義をして、それを聞くというのならまだ理解できます。しかし、このオンラインコースでは、個人でBWSIのカリキュラムを進める形式となっています。そのため、セッションの9割の時間は相手の顔を見て過ごすことはないはずなのに、わざわざCPUの処理を食ってPCを重くし、ネットの通信にも多大なる負担をかけるようなZOOMを開く必要はないかと思います。 　特にネットの通信についてですが、モバイルデータ通信を使用している方や、ネット環境があまり良くない環境にいる方もいると思います。全員が5Gを使って通信しているわけではないことを理解してほしいです。
+        </p>
+        <p>　それに関連して、<strong>毎セッションに質問、アドバイスを強制される問題</strong>についてです</p>
+        <p>　なぜ、毎セッションで最低一回は質問とアドバイスをしなければならないのかわからないです。何もわからないことがなければ質問することがないので、わざわざどうでもいい質問をしなければならくなり、自分にも相手にも面倒です。わからないことがあれば自分で調べるのが普通でしょう。 　全て完璧に理解していて、全く問題がないひとはセッション後に悪い評価をつけられなければならないのでしょうか? 　AISSのオンラインコースは
+            <strong>コミュニケーション力を育成する場なのですか?</strong>それならそうと、紹介文に書いて欲しいものです。</p>
+        <p>　もし、それでもどうしても質問、アドバイスをして欲しい...!というのならば、音で伝え合う必要はないんですよ。<strong>私たち人類は幸運なことに文字を使うことができます</strong>。そうです、わざわざ重いZOOMを使って伝え合う必要はないのです!多くの人がPCを使っているのですから、それに適したメッセージツールを使うのが妥当だと思います。例を挙げるとしたら<strong><a href="https://discord.com">Discord</a>がふさわしい</strong>と思います。</p>
+        <p>　それでもやっぱり音で伝えないと気が済まない!というのなら、それでもやっぱりDiscordを使うべきだと思います。実は、Discrodはもともとゲーマー向けのアプリなだけあり、<em>ボイスチャット</em>が存在しており、これがかなり優秀です。さらに、<em>画面の共有</em>もできるため、わからないことをどうしても映像で伝えたいときがあれば、この機能が役に立つと思います。後ほどDiscordについてもっと詳しく解説いたします。</p>
+        <p>　ZOOMを使ってうまくいってるプロジェクトもあります。Life is Tech!のオンラインキャンプがその例です。しかし、今回のオンラインコースとは決定的な違いがあります。それは、メンターの存在です。Life is Tech!は一見チャラチャラしているように見えて、実はしっかりとそれぞれのグループにメンターを最低一人以上配置しています。なので、わからないことがあったら、その人に聞くことでGoogle検索よりも早く解決することがあります。しかし、AISSのオンラインコースでは、それぞれのグループに<strong>メンターや有識者が配置されることはありません</strong>。
+            　また、Life is Tech!でZOOMが採用されている理由には、おそらくメンバーのテンションをあげる目的もあると思います。さまざまなイベントでメンバーを楽しませたり、コミュニケーションをとって謎解きをしたりもします。そのため、ZOOMが適しているのです。しかし、AISSはそのような要素は一切ないのにもかかわらず、<del>(おそらく流行っているからという理由だけで)</del>ZOOMを採用しています。<strong>目的にあったツールを選んだ方がいいかと思います。</strong></p>
+        <h3 id="-">最後は連絡方法についてです</h3>
+        <p>　今回のオンラインコースでは、運営からの情報の伝達には<strong>メール</strong>を、グループメンバー同士では<strong>LINEのオープンチャット</strong>を利用しています。 　このメールでのお知らせはまだ理解できますが、メンバー同士にLINEのオープンチャットで連絡をさせるというのはいささか理解ができません。
+        </p>
+        <p>まずは、今の<strong>LINEを使うには電話番号が必要</strong>だということです。電話番号といっても、キッズケータイのような制限に満ちているものではだめです。きちんとSMS認証ができるような電話番号が必要です。SMS認証をするには<strong>スマホ版かガラケー版のLINE</strong>が必須です。タブレット版やPC版のLINEではアカウント登録はできません。もしかしたら、今の中高生は全員スマホを使えてLINEをしていると思っていたら大間違いです。家庭の事情で携帯を持てない人もいます。私の知り合いにも数人います。ただ単に普及しているからという理由だけでLINEを連絡ツールに採用するのはやめた方がいいと思います。
+            　また、LINEのオープンチャットを使うにはかなり手間がいり、年齢確認が必要だったり、携帯版のLINEでないとオープンチャットに入れなかったりという問題があります。年齢確認は人によってはかなり手間のかかる作業になるにもかかわらず、それをして得られる利便性はさほどありません。あるとしたら自分の持っているスタンプを大量に送りつけられるくらいです。やはり、
+            <strong>目的にあった連絡ツールを採用すべき</strong>だと思います。先でも述べたように、このようなやりとりには<strong>Discordが最適</strong>です。</p>
+        <h3 id="didcord-">Didcordの良さ</h3>
+        <p>公式サイト: <a href="https://discord.com">https://discord.com</a></p>
+        <p>　Discordは元々はゲーマー向けの連絡ツールでした。 　そのせいもあり、ゲームをするときに便利な
+            <strong>ボイスチャット機能</strong>や<strong>画面共有機能</strong>があったり、話す<strong>話題ごとに部屋を作れたり</strong>、サーバー内での<strong>役職分けによる様々な権限の操作</strong>ができたりと、LINEよりも管理がしやすく、機能面では<strong>LINEの上位互換</strong>とも言えるでしょう。</p>
+        <p>　しかし、今は様々な用途に使われるほどフレンドリーになっており、海外の<strong>大学のオンライン授業</strong>で使われたということもあります。そのため、今のDiscordはもうゲームをする時に使う電話アプリだけではなくなっています。</p>
+        <p>　DiscordはLINEと比べて、<strong>登録してからサーバーに入るまでの作業が圧倒的に楽</strong>です。本人確認は必要ありませんし、そもそも<strong>電話番号が必要ありません</strong>。スマホでもタブレットでも<strong>PCでも使える</strong>上、<strong>ブラウザだけでも</strong>使うことができます。<strong>スマホがない人でも</strong>使うことができます。</p>
+        <p>　Discordは役職によって閲覧、発言できる部屋(チャンネルと言います)を指定できるため、ここは運営の人が情報をお知らせするチャンネル、としたり、ここはグループX-Nの情報伝達のチャンネルとしたりすることができるため、リーダーの人にわざわざオープンチャットを作成してもらう必要はなくなります。特に、情報伝達では、<code>@everyone</code>とサーバー全員にメンションをすることができるため、いちいちメールを送る必要はありません。Discordには、文字装飾による強調や、プログラミングのコードを見やすくする装飾もあります。</p>
+        <p>また、Discordは<strong>BOTの作成、運営がLINEと比べて非常に簡単</strong>です。メンバーの管理や役職の割り振りなどはBOTに任せて<strong>自動化</strong>することだってできます。</p>
+        <p>このように、多くの機能を持ち、管理もしやすい<strong>DiscordはAISSのようなプロジェクトに適している</strong>のではないでしょうか?</p>
+        <p>　今回、私はAISSと出会い、Pythonによる車の制御について学ぶことができると思い、とても楽しみにしていましたが、実際にはそんなことはなく、ただYouTubeの動画を眺めるだけの時間を過ごすことになりました。独自の貴重な教材を使うのかと思っていましたが、実際は一般公開されているYouTubeの動画でした。それなら別に参加しなくても学ぶことはできます。私は、このAISSでしか学べないことがあることを期待していました。おそらく私が今後AISSに参加することは永遠にないでしょう。</p>
+        <p>　まだまだ寒さが残っております。お風邪など引きませんようお気をつけ下さい。</p>
+        <h3 id="-">敬具</h3>
+        <p>2021年3月9日 周廷叡
+        </p>
+
+
+    </div>
+
+</body>
+
+</html>
