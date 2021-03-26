@@ -2,10 +2,12 @@
     "class": "FeaturedBannersView",
     "itemSize": "{296, 148}",
     "itemCornerRadius": 10,
-    "banners": [{
-        "url": "https://p1atdev.github.io/repo/assets/repo/Banners/FullHD.png",
-        "title": "Freeza",
-        "package": "com.p1atdev.freeza",
-        "hideShadow": false
-    }]
+    "banners": [
+        {
+            "url": "https://p1atdev.github.io/repo/assets/repo/Banners/FullHD.png",
+            "title": "Freeza",
+            "package": "com.p1atdev.freeza",
+            "hideShadow": false
+        }
+    ]
 }

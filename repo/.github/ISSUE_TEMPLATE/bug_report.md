@@ -1,7 +1,6 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-
 ---
 
 **Describe the bug**
@@ -19,9 +18,10 @@ If applicable, add screenshots to help explain your problem.
 
 **Platform:**
 Where does the error occurs?
- - Mobile Browser [e.g Mobile Safari, Chrome]
- - Cydia
- - Desktop Browser [e.g. Safari, Firefox]
+
+-   Mobile Browser [e.g Mobile Safari, Chrome]
+-   Cydia
+-   Desktop Browser [e.g. Safari, Firefox]
 
 **Additional context**
 Add any other context about the problem here.
