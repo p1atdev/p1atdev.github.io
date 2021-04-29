@@ -2132,12 +2132,12 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
 // EXTERNAL MODULE: ./assets/css/tailwind.css
 var tailwind = __webpack_require__(21);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=7b6285d6&
-var defaultvue_type_template_id_7b6285d6_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"flex flex-col h-screen background"},[_vm._ssrNode("<header class=\"h-auto shadow-sm space-x-4 light:bg-white dark:bg-gray-900\">","</header>",[_vm._ssrNode("<a href=\"/\" class=\"inline-block px-6 m-4 font-bold text-3xl dark:text-white hover:underline\">\n\t\t\tPlatina\n\t\t</a> <a href=\"/apps\" class=\"inline-block px-4 ml-4 m-2 font-semibold text-2xl dark:text-gray-300 hover:underline\">\n\t\t\tApps\n\t\t</a> <a href=\"/\" class=\"inline-block px-4 m-2 font-semibold text-2xl dark:text-gray-300 hover:underline\">\n\t\t\tRepo\n\t\t</a> <a href=\"https://zenn.dev/platina\" class=\"inline-block px-4 m-2 font-semibold text-2xl text-blue-300 hover:underline\">\n\t\t\tZenn\n\t\t</a> "),_vm._ssrNode("<div class=\"inline-block p-6 absolute inset-y-0 right-0\">","</div>",[_c('DarkToggleButton')],1)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"flex-1 overflow-y-auto\">","</div>",[_c('Nuxt')],1)],2)}
-var defaultvue_type_template_id_7b6285d6_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/default.vue?vue&type=template&id=1f3d99fe&
+var defaultvue_type_template_id_1f3d99fe_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"flex flex-col h-screen background"},[_vm._ssrNode("<header class=\"h-auto shadow-sm space-x-4 light:bg-white dark:bg-gray-900\">","</header>",[_vm._ssrNode("<a href=\"/\" class=\"inline-block px-6 m-4 font-bold text-3xl dark:text-white hover:underline\">\n\t\t\tPlatina\n\t\t</a> <a href=\"/apps\" class=\"inline-block px-4 ml-4 m-2 font-semibold text-2xl dark:text-gray-300 hover:underline\">\n\t\t\tApps\n\t\t</a> <a href=\"/repo/index.html\" class=\"inline-block px-4 m-2 font-semibold text-2xl dark:text-gray-300 hover:underline\">\n\t\t\tRepo\n\t\t</a> <a href=\"https://zenn.dev/platina\" class=\"inline-block px-4 m-2 font-semibold text-2xl text-blue-300 hover:underline\">\n\t\t\tZenn\n\t\t</a> "),_vm._ssrNode("<div class=\"inline-block p-6 absolute inset-y-0 right-0\">","</div>",[_c('DarkToggleButton')],1)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"flex-1 overflow-y-auto\">","</div>",[_c('Nuxt')],1)],2)}
+var defaultvue_type_template_id_1f3d99fe_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=7b6285d6&
+// CONCATENATED MODULE: ./layouts/default.vue?vue&type=template&id=1f3d99fe&
 
 // EXTERNAL MODULE: ./components/DarkToggleButton.vue + 4 modules
 var DarkToggleButton = __webpack_require__(6);
@@ -2209,8 +2209,8 @@ if (style0.__inject__) style0.__inject__(context)
 
 var default_component = Object(componentNormalizer["a" /* default */])(
   layouts_defaultvue_type_script_lang_js_,
-  defaultvue_type_template_id_7b6285d6_render,
-  defaultvue_type_template_id_7b6285d6_staticRenderFns,
+  defaultvue_type_template_id_1f3d99fe_render,
+  defaultvue_type_template_id_1f3d99fe_staticRenderFns,
   false,
   default_injectStyles,
   null,

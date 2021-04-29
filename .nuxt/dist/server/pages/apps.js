@@ -8,12 +8,12 @@ exports.modules = {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/apps.vue?vue&type=template&id=d0ecd2fa&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container mx-auto px-4 md:container md:mx-auto"},[_vm._ssrNode("<title>Plationa - Apps</title> <h1 class=\"my-8 my-8 text-center self-center text-8xl dark:text-white\">\n\t\tComig soon...\n\t</h1>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/apps.vue?vue&type=template&id=73a02838&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container mx-auto px-4 md:container md:mx-auto"},[_vm._ssrNode("<title>Plationa - Apps</title> <h1 class=\"my-8 text-center self-center text-8xl dark:text-white\">\n\t\tComig soon...\n\t</h1>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/apps.vue?vue&type=template&id=d0ecd2fa&
+// CONCATENATED MODULE: ./pages/apps.vue?vue&type=template&id=73a02838&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/apps.vue?vue&type=script&lang=js&
 //
