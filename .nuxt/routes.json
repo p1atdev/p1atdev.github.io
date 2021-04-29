@@ -1,0 +1,16 @@
+[
+  {
+    "name": "apps",
+    "path": "/apps",
+    "component": "/Users/shuteiei/Documents/GithubPage/pages/apps.vue",
+    "chunkName": "pages/apps",
+    "_name": "_5d017ca8"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/shuteiei/Documents/GithubPage/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_f25aa4e8"
+  }
+]

@@ -1,36 +1,32 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "0BSD",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public"
-  },
-  "dependencies": {
-    "bootstrap": "^4.6.0",
-    "gatsby": "^3.1.1",
-    "react": "^17.0.1",
-    "react-bootstrap": "^1.5.2",
-    "react-dom": "^17.0.1",
-    "unsplash-js": "^7.0.8"
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0",
-    "prettier": "2.2.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+    "name": "Platina",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+        "lint": "npm run lint:js"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.1.1",
+        "@heroicons/vue": "^1.0.1",
+        "core-js": "^3.8.3",
+        "nuxt": "^2.14.12"
+    },
+    "devDependencies": {
+        "@nuxtjs/eslint-config": "^5.0.0",
+        "@nuxtjs/eslint-module": "^3.0.2",
+        "@nuxtjs/tailwindcss": "^4.0.3",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.18.0",
+        "eslint-config-prettier": "^7.2.0",
+        "eslint-plugin-nuxt": "^2.0.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "eslint-plugin-vue": "^7.5.0",
+        "postcss": "^8.2.13",
+        "prettier": "^2.2.1"
+    }
 }
